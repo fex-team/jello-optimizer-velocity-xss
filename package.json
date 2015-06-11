@@ -1,0 +1,14 @@
+{
+  "name": "jello-optimizer-velocity-xss",
+  "version": "1.0.0",
+  "description": "jello velocity xss protect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fis",
+  "license": "BSD",
+  "dependencies": {
+    "velocityjs": "0.6.2"
+  }
+}
