@@ -1,7 +1,7 @@
 jello-optimizer-velocity-xss
 ====================
 
-自动将*内容区*的变量加 `$esc.html` 包裹。
+自动将**内容区**的变量加 `$esc.html` 包裹。
 
 在 `#script()#end` 中的用 `$esc.javascript` 包裹。
 
