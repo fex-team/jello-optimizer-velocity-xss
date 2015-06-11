@@ -102,4 +102,10 @@ codeGen['raw'] = function(item) {
   return '#[[' + item.value + ']]#';
 };
 
+codeGen['macro'] = function(block, items) {
+  return '#' + block.type +
+    '(' + block.id + ' ' + (block.args ? block.args.map(codeGen.gen).join(' ') : '') +
+    ')' + items.map(codeGen.gen).join('') + '#end';
+};
+
 module.exports = codeGen;

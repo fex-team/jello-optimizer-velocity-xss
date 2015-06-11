@@ -15,6 +15,8 @@ module.exports = function(content, file, settings) {
     filter: true
   }, true);
 
+  // return JSON.stringify(asts, null, 4);
+
   asts = transform(asts, settings);
   return codeGen(asts);
 };
