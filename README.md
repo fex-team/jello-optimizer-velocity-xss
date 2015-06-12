@@ -22,6 +22,12 @@ fis.config.set('modules.optimizer.vm', 'velocity-xss');
 
 ```
 
+然后使用 release 命令的时候，记得带上 `-o` 参数。
+
+```
+jello release -o
+```
+
 ## 配置项
 
 目前只有 `blacklist` 一个配置项。数组格式，元素为正则对象。
