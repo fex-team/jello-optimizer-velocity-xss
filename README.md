@@ -5,6 +5,8 @@ jello-optimizer-velocity-xss
 
 在 `#script()#end` 中的用 `$esc.javascript` 包裹。
 
+![Diff](./xss.png)
+
 ## 使用
 
 安装
@@ -31,3 +33,4 @@ fis.config.set('settings.optimizer.velocity-xss', {
   ]
 });
 ```
+
