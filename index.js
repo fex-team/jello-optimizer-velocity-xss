@@ -17,7 +17,9 @@ module.exports = function(content, file, settings) {
 
   // return JSON.stringify(asts, null, 4);
 
+  // console.log(asts);
   asts = transform(asts, settings);
+  // console.log(asts)
   return codeGen(asts);
 };
 

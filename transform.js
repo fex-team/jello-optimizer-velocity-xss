@@ -50,7 +50,7 @@ function transform(ast, options) {
           type: 'references',
           id: 'esc',
           prue: true,
-          leader: '$',
+          leader: '$!',
           isWraped: true,
           path: [
             {
