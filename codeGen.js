@@ -47,6 +47,11 @@ codeGen.math = function(item) {
   var expression = item.expression;
 
   if (expression.length === 1) {
+
+    if (item.operator === 'parenthesis') {
+      return '(' + codeGen.gen(expression[0])  + ')';
+    }
+
     return (item.operator === 'not' ? '!' : item.operator === 'minus' ? '-' : item.operator) + '' + codeGen.gen(expression[0]);
   }
 
