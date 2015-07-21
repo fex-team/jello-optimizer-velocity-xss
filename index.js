@@ -24,5 +24,5 @@ module.exports = function(content, file, settings) {
 };
 
 module.exports.defaultOptions = {
-
+  ignoreScript: true
 };

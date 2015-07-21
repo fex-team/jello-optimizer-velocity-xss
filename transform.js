@@ -46,6 +46,10 @@ function transform(ast, options) {
           return true;
         });
 
+        if (options.ignoreScript && method === 'javascript') {
+          return;
+        }
+
         return {
           type: 'references',
           id: 'esc',
