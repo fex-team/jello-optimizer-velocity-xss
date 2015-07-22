@@ -1,6 +1,6 @@
 {
   "name": "jello-optimizer-velocity-xss",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "jello velocity xss protect",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "fis",
   "license": "BSD",
   "dependencies": {
-    "velocityjs": "0.6.2"
+    "velocityjs": "0.7.0"
   }
 }
